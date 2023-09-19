@@ -1,1 +1,7 @@
-Hello World
+<div style="border: 1px solid #ccc; background-color: #f4f4f4; font-family: monospace; padding: 10px;">
+  <pre><span style="color: #4caf50;">$</span> intrinsic(){echo "from within."}</pre>
+  <pre><span style="color: #4caf50;">$</span> alias intrin=intrinsic</pre>
+  <pre><span style="color: #4caf50;">$</span> tec(){echo "Technology "$(cat -)}</pre>
+  <pre><span style="color: #4caf50;">$</span> intrin<span style="color: red;">|</span>tec</pre>
+  Technology from within.
+</div>
